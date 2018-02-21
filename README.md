@@ -3,6 +3,8 @@
 
 2-move inside the projet_cinq directory
 
-3-run: pipenv install followed by: pipenv shell
+3-run: pipenv install  
+  followed by: pipenv shell
+
 
 4-run: python Launcher.py
