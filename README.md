@@ -18,7 +18,7 @@ pipenv install --skip-lock
   ```
 
 
-5-You need to run that code to force the creation of the database the first time you use that program: 
+5-You need to run that code to force the creation of the database the first time you launch the program: 
 ```Bash
 python Launcher.py -e 'update'
 ```
