@@ -175,7 +175,7 @@ class Database():
                 cursor.execute(get_category, (product['category']))
                 category = cursor.fetchone()
 
-                insert_aliments = """INSERT INTO `aliments`
+                insert_aliments = """REPLACE INTO `aliments`
                 (`aliments_names`, `categories_id`, `aliment_description`, `where_to_buy`, `OpenFoodFact_url`, `nutrition_grade`)
                 VALUES (%s, %s, %s, %s, %s, %s)"""
                 cursor.execute(insert_aliments, (product["product_name"], category['id'],\
