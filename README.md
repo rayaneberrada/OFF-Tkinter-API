@@ -7,4 +7,5 @@
   followed by: pipenv shell
 
 
-4-run: python Launcher.py
+4-run: python Launcher.py  
+You can force the update of the database by typing: python Launcher.py -e 'update'
