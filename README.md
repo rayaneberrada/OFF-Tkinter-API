@@ -3,7 +3,7 @@
 
 2-move inside the projet_cinq directory
 
-3-run: pipenv install  
+3-run: pipenv install --skip-lock
   followed by: pipenv shell
 
 
