@@ -8,9 +8,21 @@ CHARACTER SET "utf8";
 
 3-move inside the projet_cinq directory
 
-4-run: pipenv install --skip-lock  
-  followed by: pipenv shell
+4-run:  
+```Bash
+pipenv install --skip-lock 
+```
+  followed by: 
+  ```Bash
+  pipenv shell
+  ```
 
 
-5-run: python Launcher.py  
-You can force the update of the database by typing: python Launcher.py -e 'update'
+5-run: 
+```Bash
+python Launcher.py
+```
+You can force the update of the database by typing: 
+```Bash
+python Launcher.py -e 'update'
+```
