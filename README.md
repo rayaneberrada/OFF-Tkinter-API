@@ -18,11 +18,11 @@ pipenv install --skip-lock
   ```
 
 
-5-run this code inside the virtual environment to launch the program: 
-```Bash
-python Launcher.py
-```
-You can force the update of the database by typing: 
+5-You need to run that code to force the creation of the database the first time you use that program: 
 ```Bash
 python Launcher.py -e 'update'
+```
+Then you can just launch the program by typing this code or force the update of the database with the previous code : 
+```Bash
+python Launcher.py 
 ```
