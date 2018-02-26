@@ -8,17 +8,17 @@ CHARACTER SET "utf8";
 
 3-move inside the projet_cinq directory
 
-4-run:  
+4-run this code to install all the requirements you need to use the program:  
 ```Bash
 pipenv install --skip-lock 
 ```
-  followed by: 
+  followed by this code to move inside the virtual environment: 
   ```Bash
   pipenv shell
   ```
 
 
-5-run: 
+5-run this code inside the virtual environment to launch the program: 
 ```Bash
 python Launcher.py
 ```
