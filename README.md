@@ -9,8 +9,11 @@ The point of that application was to learn to interact with API's and database u
 ## Libraries
 
 [Tkinter](https://docs.python.org/3/library/tk.html)
+
 [Requests](http://docs.python-requests.org/en/master/)
+
 [Records](https://pypi.org/project/records/)
+
 [Pymysql](https://github.com/PyMySQL/PyMySQL)
 
 ## Screenshots
@@ -20,16 +23,16 @@ Main menu:
 
 
 ## Installation
-1. -Create a database named "offdb" using that code:  
+1-Create a database named "offdb" using that code:  
 ```SQL
 CREATE DATABASE offdb
 CHARACTER SET "utf8";
 ```
-1. -git clone the projet_cinq repository
+2-git clone the projet_cinq repository
 
-1. move inside the projet_cinq directory
+3-move inside the projet_cinq directory
 
-1. run this code to install all the requirements you need to use the program:  
+4-run this code to install all the requirements you need to use the program:  
 ```Bash
 pipenv install --skip-lock 
 ```
@@ -37,9 +40,7 @@ pipenv install --skip-lock
   ```Bash
   pipenv shell
   ```
-
-
-1. You need to run that code to force the creation of the database the first time you launch the program: 
+5-You need to run that code to force the creation of the database the first time you launch the program: 
 ```Bash
 python Launcher.py -e 'update'
 ```
