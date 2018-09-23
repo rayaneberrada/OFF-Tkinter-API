@@ -19,16 +19,17 @@ Main menu:
 ![Screenshot](OFF.png)
 
 
-1-Create a database named "offdb" using that code:  
+## Installation
+1. -Create a database named "offdb" using that code:  
 ```SQL
 CREATE DATABASE offdb
 CHARACTER SET "utf8";
 ```
-2-git clone the projet_cinq repository
+1. -git clone the projet_cinq repository
 
-3-move inside the projet_cinq directory
+1. move inside the projet_cinq directory
 
-4-run this code to install all the requirements you need to use the program:  
+1. run this code to install all the requirements you need to use the program:  
 ```Bash
 pipenv install --skip-lock 
 ```
@@ -38,7 +39,7 @@ pipenv install --skip-lock
   ```
 
 
-5-You need to run that code to force the creation of the database the first time you launch the program: 
+1. You need to run that code to force the creation of the database the first time you launch the program: 
 ```Bash
 python Launcher.py -e 'update'
 ```
