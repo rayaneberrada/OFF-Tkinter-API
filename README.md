@@ -1,4 +1,24 @@
-# projet_cinq
+# Project Title
+
+OpenFoodFacts interface: tkinter interface where you can pick an aliment among the differents categories proposed and get an healthier equivalent for the aliment selected and save them in database..
+
+## Motives
+
+The point of that application was to learn to interact with API's and database using Python.
+
+## Libraries
+
+[Tkinter](https://docs.python.org/3/library/tk.html)
+[Requests](http://docs.python-requests.org/en/master/)
+[Records](https://pypi.org/project/records/)
+[Pymysql](https://github.com/PyMySQL/PyMySQL)
+
+## Screenshots
+
+Main menu:
+![Screenshot](OFF.png)
+
+
 1-Create a database named "offdb" using that code:  
 ```SQL
 CREATE DATABASE offdb
