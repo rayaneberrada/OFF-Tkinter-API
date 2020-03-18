@@ -46,7 +46,7 @@ class Database():
                                                 OpenFoodFact_url varchar(2000) NOT NULL,
                                                 nutrition_grade char(1) NOT NULL,
                                                 CONSTRAINT fk_category_id
-                                                FOREIGN KEY (categories_id) 
+                                                FOREIGN KEY (categories_id)
                                                 REFERENCES categories(id)
                                                 )"""
         """
@@ -63,13 +63,13 @@ class Database():
                                                                                         OpenFoodFact_url varchar(2000) NOT NULL,
                                                                                         nutrition_grade char(1) NOT NULL,
                                                                                         CONSTRAINT fk_aliment_substituted
-                                                                                        FOREIGN KEY (name_aliment_substituted) 
+                                                                                        FOREIGN KEY (name_aliment_substituted)
                                                                                         REFERENCES aliments(aliments_names)
                                                                                         )"""
 
         self.create_update = """CREATE TABLE IF NOT EXISTS last_update (
                                                                     id int(50) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-                                                                    date_of_update DATE NOT NULL 
+                                                                    date_of_update DATE NOT NULL
                                                                     )"""
         """
         Create the table saving that will stock the aliments saved because they are healthier

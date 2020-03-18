@@ -23,22 +23,19 @@ Main menu:
 
 
 ## Installation
-1-Create a database named "offdb" using that code:  
-```SQL
-CREATE DATABASE offdb
-CHARACTER SET "utf8";
-```
-2-git clone the projet_cinq repository
+1-Create a database named "offdb" using mysql. Make sure to changes variables connection such as "user" and "passow" in Database.py and Interface.py and replace them by ones related to the mysql user you used to create your Database
+
+2-Create a virtual environnement and clone the repository inside
 
 3-move inside the projet_cinq directory
 
 4-run this code to install all the requirements you need to use the program:  
 ```Bash
-pipenv install --skip-lock 
+pip install -r requirements.txt
 ```
-  followed by this code to move inside the virtual environment: 
+  followed by this code to install Tkinter: 
   ```Bash
-  pipenv shell
+sudo apt-get install python3-tk
   ```
 5-You need to run that code to force the creation of the database the first time you launch the program: 
 ```Bash
